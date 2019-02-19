@@ -29,6 +29,7 @@ body {
     margin: 0;
     font-size: 0.7em;
     background-color: rgba(104, 10, 10, 1);
+   
 }
 
 @media only screen and (max-width: 600px) {
@@ -173,4 +174,17 @@ footer {
   
   .btn:hover .btn-default:hover, .btn-info:hover {
     background-color: rgb(37, 34, 34);
+  }
+
+  .crazy8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 25px;
+    margin-top: 10px;
+    
+  }
+  .imagen > img {
+      height: auto;
+      width: 100%;
   }
