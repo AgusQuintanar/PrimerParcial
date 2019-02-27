@@ -181,10 +181,28 @@ footer {
     grid-template-columns: 1fr;
     grid-gap: 20px;
     padding: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
     
   }
   .imagen > img {
       height: auto;
       width: 100%;
+  }
+
+  .textoProceso {
+      margin-top: 5.8em;
+      margin-left: 2em;
+      margin-right: 2em;
+  }
+
+  .tituloProceso {
+      text-align: center;
+      font-size: 2em;
+      color: rgb(117, 21, 21);
+  }
+
+  .numeroDiseño {
+      text-align: right;
+      color: #c30c0c;
+      font-weight: bold;
   }
